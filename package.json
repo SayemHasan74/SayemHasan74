@@ -1,0 +1,17 @@
+{
+  "name": "sayemhasan74",
+  "version": "1.0.0",
+  "description": "A dynamic README.md for SayemHasan74's GitHub profile.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "keywords": [
+    "github-profile",
+    "readme",
+    "dynamic-readme",
+    "github-actions"
+  ],
+  "author": "Sayem Hasan",
+  "license": "MIT"
+}
