@@ -44,13 +44,6 @@ I'm Sayem Hasan, a developer building practical software with <b>TypeScript</b>,
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/SayemHasan74/Video-Player-"><b>Video-Player-</b></a><br/><sub>My Personal Video Player </sub></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/SayemHasan74/Video-Player-?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/SayemHasan74/Video-Player-?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/SayemHasan74/Video-Player-?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SayemHasan74/Video-Player-?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/SayemHasan74/SoundSip"><b>SoundSip</b></a><br/><sub>My personal music player</sub></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/SayemHasan74/SoundSip?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Forks" src="https://img.shields.io/github/forks/SayemHasan74/SoundSip?style=flat-square&labelColor=343b41"/></td>
@@ -118,7 +111,7 @@ I'm Sayem Hasan, a developer building practical software with <b>TypeScript</b>,
 
 <h3>Dhaka snapshot <img src="https://cdn-icons-png.flaticon.com/512/197/197563.png" width="13"/></h3>
 <p>
-Currently, the weather is: <b>26°C, <i>light drizzle</i></b></br>
+Currently, the weather is: <b>25°C, <i>moderate drizzle</i></b></br>
 Today, the sun rises at <b>05:23</b> and sets at <b>18:46</b>.
 </p>
 
@@ -140,7 +133,7 @@ Today, the sun rises at <b>05:23</b> and sets at <b>18:46</b>.
 ------------
 <p align="center">
 This <i>README</i> file is generated <b>every 3 hours</b>!</br>
-Last refresh: Wednesday 22 July at 00:59 GMT+6
+Last refresh: Wednesday 22 July at 03:51 GMT+6
 </p>
 <p align="center">
   <img src="https://github.com/SayemHasan74/SayemHasan74/actions/workflows/readme-build.yml/badge.svg" />
