@@ -1,4 +1,4 @@
-<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
+<h1><img src="https://slackmojis.com/emojis/128140-github_ci_action_running/download" width="30"/> Hey! Nice to see you.</h1>
 <p>
 Welcome to my page! </br>
 I'm Sayem Hasan, a developer building practical software with <b>TypeScript</b>, <b>Python</b>, <b>JavaScript</b>, <b>C#</b>, and growing deeper into <b>AI/ML</b>, <b>NLP</b>, and <b>LLM probing</b>.
@@ -131,7 +131,7 @@ Today, the sun rises at <b>05:23</b> and sets at <b>18:46</b>.
 ------------
 <p align="center">
 This <i>README</i> file is generated <b>every 3 hours</b>!</br>
-Last refresh: Tuesday 21 July at 21:30 GMT+6
+Last refresh: Tuesday 21 July at 21:34 GMT+6
 </p>
 <p align="center">
   <img src="https://github.com/SayemHasan74/SayemHasan74/actions/workflows/readme-build.yml/badge.svg" />
