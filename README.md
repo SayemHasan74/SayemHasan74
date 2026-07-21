@@ -1,11 +1,14 @@
 <h1><img src="https://slackmojis.com/emojis/128140-github_ci_action_running/download" width="30"/> Hey! Nice to see you.</h1>
+
 <p>
 Welcome to my page! </br>
 I'm Sayem Hasan, a developer building practical software with <b>TypeScript</b>, <b>Python</b>, <b>JavaScript</b>, <b>C#</b>, and growing deeper into <b>AI/ML</b>, <b>NLP</b>, and <b>LLM probing</b>.
 </p>
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=760&lines=Full-stack+development;AI+and+machine+learning;NLP+experiments+and+LLM+probing;Clean+projects+that+solve+real+problems" alt="Typing SVG" />
 </p>
+
 <h3>Things I code with</h3>
 <p>
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
@@ -27,6 +30,7 @@ I'm Sayem Hasan, a developer building practical software with <b>TypeScript</b>,
   <img alt="VS Code" src="https://img.shields.io/badge/-VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
   <img alt="Vercel" src="https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
 </p>
+
 <h3>Open source projects</h3>
 <table>
   <thead align="center">
@@ -104,17 +108,20 @@ I'm Sayem Hasan, a developer building practical software with <b>TypeScript</b>,
     </tr>
   </tbody>
 </table>
+
 <h3>My latest builds</h3>
 <ul>
   <li><a href="https://github.com/SayemHasan74/SoundSip"><b>SoundSip</b></a><br/><i>A personal music player built with TypeScript.</i></li>
   <li><a href="https://github.com/SayemHasan74/Video-Player-"><b>Video-Player-</b></a><br/><i>A personal video player built with Python.</i></li>
   <li><a href="https://github.com/SayemHasan74/rentnest-server"><b>rentnest-server</b></a><br/><i>A rental marketplace backend with roles, reviews, rental requests, and Stripe payments.</i></li>
 </ul>
+
 <h3>Dhaka snapshot <img src="https://cdn-icons-png.flaticon.com/512/197/197563.png" width="13"/></h3>
 <p>
 Currently, the weather is: <b>27°C, <i>partly cloudy</i></b></br>
 Today, the sun rises at <b>05:23</b> and sets at <b>18:46</b>.
 </p>
+
 <h3>Contribution snake</h3>
 <p align="center">
   <picture>
@@ -123,15 +130,17 @@ Today, the sun rises at <b>05:23</b> and sets at <b>18:46</b>.
     <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/SayemHasan74/SayemHasan74/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
+
 <h3>Where to find me</h3>
 <p>
   <a href="https://github.com/SayemHasan74" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=GitHub&logoColor=white" /></a>
   <a href="https://portfolio-three-zeta-2wp6qlxwkn.vercel.app" target="_blank"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-000000.svg?&style=for-the-badge&logo=vercel&logoColor=white" /></a>
 </p>
+
 ------------
 <p align="center">
 This <i>README</i> file is generated <b>every 3 hours</b>!</br>
-Last refresh: Tuesday 21 July at 21:34 GMT+6
+Last refresh: Tuesday 21 July at 21:32 GMT+6
 </p>
 <p align="center">
   <img src="https://github.com/SayemHasan74/SayemHasan74/actions/workflows/readme-build.yml/badge.svg" />
