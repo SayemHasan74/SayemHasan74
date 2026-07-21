@@ -11,6 +11,9 @@ I'm Sayem Hasan, a developer building practical software with <b>TypeScript</b>,
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
   <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
   <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img alt="AI/ML" src="https://img.shields.io/badge/-AI%2FML-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+  <img alt="NLP" src="https://img.shields.io/badge/-NLP-412991?style=flat-square&logo=huggingface&logoColor=white" />
+  <img alt="LLM Probing" src="https://img.shields.io/badge/-LLM_Probing-10A37F?style=flat-square&logo=openai&logoColor=white" />
   <img alt="C Sharp" src="https://img.shields.io/badge/-C_Sharp-239120?style=flat-square&logo=csharp&logoColor=white" />
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
   <img alt="Node.js" src="https://img.shields.io/badge/-Node.js-43853d?style=flat-square&logo=node.js&logoColor=white" />
@@ -128,7 +131,7 @@ Today, the sun rises at <b>05:23</b> and sets at <b>18:46</b>.
 ------------
 <p align="center">
 This <i>README</i> file is generated <b>every 3 hours</b>!</br>
-Last refresh: Tuesday 21 July at 21:27 GMT+6
+Last refresh: Tuesday 21 July at 21:28 GMT+6
 </p>
 <p align="center">
   <img src="https://github.com/SayemHasan74/SayemHasan74/actions/workflows/readme-build.yml/badge.svg" />
