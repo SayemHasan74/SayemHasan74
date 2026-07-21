@@ -118,7 +118,7 @@ I'm Sayem Hasan, a developer building practical software with <b>TypeScript</b>,
 
 <h3>Dhaka snapshot <img src="https://cdn-icons-png.flaticon.com/512/197/197563.png" width="13"/></h3>
 <p>
-Currently, the weather is: <b>27°C, <i>partly cloudy</i></b></br>
+Currently, the weather is: <b>26°C, <i>light drizzle</i></b></br>
 Today, the sun rises at <b>05:23</b> and sets at <b>18:46</b>.
 </p>
 
@@ -140,7 +140,7 @@ Today, the sun rises at <b>05:23</b> and sets at <b>18:46</b>.
 ------------
 <p align="center">
 This <i>README</i> file is generated <b>every 3 hours</b>!</br>
-Last refresh: Tuesday 21 July at 21:53 GMT+6
+Last refresh: Wednesday 22 July at 00:59 GMT+6
 </p>
 <p align="center">
   <img src="https://github.com/SayemHasan74/SayemHasan74/actions/workflows/readme-build.yml/badge.svg" />
