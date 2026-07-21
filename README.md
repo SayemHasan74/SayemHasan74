@@ -2,7 +2,11 @@
 
 <p>
 Welcome to my page! </br>
-I'm Sayem Hasan, a developer from <img src="https://cdn-icons-png.flaticon.com/512/197/197563.png" width="13"/> <b>Bangladesh</b>, building projects with <b>TypeScript</b>, <b>Python</b>, <b>JavaScript</b>, and <b>C#</b>.
+I'm Sayem Hasan, a developer building practical software with <b>TypeScript</b>, <b>Python</b>, <b>JavaScript</b>, <b>C#</b>, and growing deeper into <b>AI/ML</b>, <b>NLP</b>, and <b>LLM probing</b>.
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=760&lines=Full-stack+development;AI+and+machine+learning;NLP+experiments+and+LLM+probing;Clean+projects+that+solve+real+problems" alt="Typing SVG" />
 </p>
 
 <h3>Things I code with</h3>
@@ -10,6 +14,9 @@ I'm Sayem Hasan, a developer from <img src="https://cdn-icons-png.flaticon.com/5
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
   <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
   <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img alt="AI/ML" src="https://img.shields.io/badge/-AI%2FML-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+  <img alt="NLP" src="https://img.shields.io/badge/-NLP-412991?style=flat-square&logo=huggingface&logoColor=white" />
+  <img alt="LLM Probing" src="https://img.shields.io/badge/-LLM_Probing-10A37F?style=flat-square&logo=openai&logoColor=white" />
   <img alt="C Sharp" src="https://img.shields.io/badge/-C_Sharp-239120?style=flat-square&logo=csharp&logoColor=white" />
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
   <img alt="Node.js" src="https://img.shields.io/badge/-Node.js-43853d?style=flat-square&logo=node.js&logoColor=white" />
@@ -133,7 +140,7 @@ Today, the sun rises at <b>05:23</b> and sets at <b>18:46</b>.
 ------------
 <p align="center">
 This <i>README</i> file is generated <b>every 3 hours</b>!</br>
-Last refresh: Tuesday 21 July at 21:17 GMT+6
+Last refresh: Tuesday 21 July at 21:24 GMT+6
 </p>
 <p align="center">
   <img src="https://github.com/SayemHasan74/SayemHasan74/actions/workflows/readme-build.yml/badge.svg" />
