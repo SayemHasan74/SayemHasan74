@@ -44,15 +44,22 @@ const projectRow = repo => {
 };
 
 async function fetchJson(url) {
+  const headers = {
+    'User-Agent': `${USERNAME}-profile-readme`,
+    Accept: 'application/vnd.github+json',
+  };
+
+  if (process.env.GITHUB_TOKEN) {
+    headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  }
+
   const response = await fetch(url, {
-    headers: {
-      'User-Agent': `${USERNAME}-profile-readme`,
-      Accept: 'application/vnd.github+json',
-    },
+    headers,
   });
 
   if (!response.ok) {
-    throw new Error(`Request failed: ${response.status} ${url}`);
+    const body = await response.text();
+    throw new Error(`Request failed: ${response.status} ${url}\n${body}`);
   }
 
   return response.json();
