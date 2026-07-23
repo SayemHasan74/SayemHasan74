@@ -4,44 +4,10 @@ const USERNAME = 'SayemHasan74';
 const TEMPLATE_PATH = 'main.mustache';
 const OUTPUT_PATH = 'README.md';
 
-const pinnedProjects = [
-  'Video-Player-',
-  'SoundSip',
-  'rentnest-server',
-  'Portfolio',
-  'Stats-Checker',
-  'devpulse',
-  'typescript-assignment',
-  'GameProject',
-  'football-ticket-booking',
-];
-
-const fallbackDescriptions = {
-  'Video-Player-': 'My personal video player built with Python.',
-  SoundSip: 'My personal music player built with TypeScript.',
-  'rentnest-server': 'Rental marketplace backend with tenant, landlord, admin roles, reviews, and Stripe payments.',
-  Portfolio: 'Personal portfolio website.',
-  'Stats-Checker': 'Stats checking project built with C#.',
-  devpulse: 'Developer-focused TypeScript project.',
-  'typescript-assignment': 'TypeScript assignment solutions and blogs.',
-  GameProject: '3D tree watering game built with Python.',
-  'football-ticket-booking': 'Football ticket booking project.',
-};
-
 const badge = (label, color, logo, logoColor = 'white') =>
   `<img alt="${label}" src="https://img.shields.io/badge/-${encodeURIComponent(label).replace(/%20/g, '_')}-${color}?style=flat-square&logo=${logo}&logoColor=${logoColor}" />`;
 
-const projectRow = repo => {
-  const name = repo.name;
-  const description = repo.description || fallbackDescriptions[name] || 'Open source project.';
-  return `    <tr>
-      <td><a href="${repo.html_url}"><b>${name}</b></a><br/><sub>${description}</sub></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/${USERNAME}/${name}?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/${USERNAME}/${name}?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/${USERNAME}/${name}?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/${USERNAME}/${name}?style=flat-square&labelColor=343b41"/></td>
-    </tr>`;
-};
+const profileBadge = (src, alt) => `<img alt="${alt}" src="${src}" />`;
 
 async function fetchJson(url) {
   const headers = {
@@ -63,15 +29,6 @@ async function fetchJson(url) {
   }
 
   return response.json();
-}
-
-async function getRepos() {
-  const repos = await fetchJson(`https://api.github.com/users/${USERNAME}/repos?per_page=100&sort=updated`);
-  const byName = new Map(repos.map(repo => [repo.name, repo]));
-
-  return pinnedProjects
-    .filter(name => byName.has(name))
-    .map(name => byName.get(name));
 }
 
 async function getDhakaWeather() {
@@ -127,7 +84,6 @@ function render(template, data) {
 }
 
 async function main() {
-  const repos = await getRepos();
   const weather = await getDhakaWeather();
   const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
   const refreshDate = new Intl.DateTimeFormat('en-GB', {
@@ -141,27 +97,26 @@ async function main() {
   }).format(new Date());
 
   const data = {
-    badges: [
-      badge('TypeScript', '007ACC', 'typescript'),
-      badge('JavaScript', 'F7DF1E', 'javascript', 'black'),
-      badge('Python', '3776AB', 'python'),
+    profile_badges: [
+      profileBadge(`https://komarev.com/ghpvc/?username=${USERNAME}&label=Profile%20views&color=0e75b6&style=flat-square`, 'Profile views'),
+      profileBadge('https://img.shields.io/website?url=https%3A%2F%2Fportfolio-three-zeta-2wp6qlxwkn.vercel.app&style=flat-square&label=website', 'Website status'),
+      profileBadge(`https://img.shields.io/github/followers/${USERNAME}?style=flat-square&label=followers&color=0e75b6`, 'GitHub followers'),
+      profileBadge(`https://img.shields.io/github/stars/${USERNAME}?affiliations=OWNER&style=flat-square&label=total%20stars&color=343b41`, 'GitHub stars'),
+      profileBadge('https://img.shields.io/badge/BRAC%20University-CSE-7A1FA2?style=flat-square', 'BRAC University CSE'),
+    ].join('\n  '),
+    skill_icons:
+      '<img src="https://skillicons.dev/icons?i=ts,js,python,cs,nodejs,express,react,mongodb,postgres,prisma,git,github,linux,postman,vscode,vercel" alt="TypeScript, JavaScript, Python, C#, Node.js, Express, React, MongoDB, PostgreSQL, Prisma, Git, GitHub, Linux, Postman, VS Code, Vercel" />',
+    ai_badges: [
       badge('AI/ML', 'FF6F00', 'tensorflow'),
       badge('NLP', '412991', 'huggingface'),
       badge('LLM Probing', '10A37F', 'openai'),
-      badge('C Sharp', '239120', 'csharp'),
-      badge('React', '45b8d8', 'react'),
-      badge('Node.js', '43853d', 'node.js'),
-      badge('Express', '000000', 'express'),
-      badge('MongoDB', '13aa52', 'mongodb'),
-      badge('Stripe', '635BFF', 'stripe'),
-      badge('HTML5', 'E34F26', 'html5'),
-      badge('CSS3', '1572B6', 'css3'),
-      badge('Git', 'F05032', 'git'),
-      badge('GitHub Actions', '2088FF', 'github-actions'),
-      badge('VS Code', '007ACC', 'visualstudiocode'),
-      badge('Vercel', '000000', 'vercel'),
+      badge('Backend Engineering', '111827', 'nodedotjs'),
+      badge('API Design', '005571', 'fastapi'),
+      badge('REST APIs', '02569B', 'swagger'),
+      badge('Authentication', '000000', 'auth0'),
+      badge('Schema Design', '336791', 'postgresql'),
+      badge('Full Stack', '61DAFB', 'react', 'black'),
     ].join('\n  '),
-    project_rows: repos.map(projectRow).join('\n'),
     temperature: weather.temperature,
     weather: weather.weather,
     sunrise: weather.sunrise,
