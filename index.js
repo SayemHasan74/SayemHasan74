@@ -99,7 +99,7 @@ async function main() {
   const data = {
     profile_badges: [
       profileBadge(`https://komarev.com/ghpvc/?username=${USERNAME}&label=Profile%20views&color=0e75b6&style=flat-square`, 'Profile views'),
-      profileBadge('https://img.shields.io/website?url=https%3A%2F%2Fportfolio-three-zeta-2wp6qlxwkn.vercel.app&style=flat-square&label=website', 'Website status'),
+      profileBadge('https://img.shields.io/website?url=https%3A%2F%2Fportfolio-rose-sigma-60.vercel.app%2F&style=flat-square&label=website', 'Website status'),
       profileBadge(`https://img.shields.io/github/followers/${USERNAME}?style=flat-square&label=followers&color=0e75b6`, 'GitHub followers'),
       profileBadge(`https://img.shields.io/github/stars/${USERNAME}?affiliations=OWNER&style=flat-square&label=total%20stars&color=343b41`, 'GitHub stars'),
       profileBadge('https://img.shields.io/badge/BRAC%20University-CSE-7A1FA2?style=flat-square', 'BRAC University CSE'),

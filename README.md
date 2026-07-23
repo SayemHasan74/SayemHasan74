@@ -11,7 +11,7 @@ I'm Sayem Hasan, a developer focused on <b>backend engineering</b>, <b>API desig
 
 <p align="center">
   <img alt="Profile views" src="https://komarev.com/ghpvc/?username=SayemHasan74&label=Profile%20views&color=0e75b6&style=flat-square" />
-  <img alt="Website status" src="https://img.shields.io/website?url=https%3A%2F%2Fportfolio-three-zeta-2wp6qlxwkn.vercel.app&style=flat-square&label=website" />
+  <img alt="Website status" src="https://img.shields.io/website?url=https%3A%2F%2Fportfolio-rose-sigma-60.vercel.app%2F&style=flat-square&label=website" />
   <img alt="GitHub followers" src="https://img.shields.io/github/followers/SayemHasan74?style=flat-square&label=followers&color=0e75b6" />
   <img alt="GitHub stars" src="https://img.shields.io/github/stars/SayemHasan74?affiliations=OWNER&style=flat-square&label=total%20stars&color=343b41" />
   <img alt="BRAC University CSE" src="https://img.shields.io/badge/BRAC%20University-CSE-7A1FA2?style=flat-square" />
@@ -78,13 +78,13 @@ Today, the sun rises at <b>05:24</b> and sets at <b>18:45</b>.
 <h3>Where to find me</h3>
 <p>
   <a href="https://github.com/SayemHasan74" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=GitHub&logoColor=white" /></a>
-  <a href="https://portfolio-three-zeta-2wp6qlxwkn.vercel.app" target="_blank"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-000000.svg?&style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://portfolio-rose-sigma-60.vercel.app/" target="_blank"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-000000.svg?&style=for-the-badge&logo=vercel&logoColor=white" /></a>
 </p>
 
 ------------
 <p align="center">
 This <i>README</i> file is generated <b>every 3 hours</b>!</br>
-Last refresh: Thursday 23 July at 21:11 GMT+6
+Last refresh: Thursday 23 July at 21:16 GMT+6
 </p>
 <p align="center">
   <img src="https://github.com/SayemHasan74/SayemHasan74/actions/workflows/readme-build.yml/badge.svg" />
