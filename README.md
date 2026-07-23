@@ -53,6 +53,11 @@ Final-year Computer Science & Engineering student at <b>BRAC University</b>, spe
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=SayemHasan74&theme=github-compact&hide_border=true&area=true" alt="Sayem Hasan activity graph" />
 </p>
 
+<h3>Activity overview</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SayemHasan74/SayemHasan74/main/assets/activity-overview.svg" alt="Sayem Hasan activity overview" />
+</p>
+
 <h3>My latest builds</h3>
 <ul>
   <li><a href="https://github.com/SayemHasan74/SoundSip"><b>SoundSip</b></a><br/><i>A personal music player built with TypeScript.</i></li>
@@ -84,7 +89,7 @@ Today, the sun rises at <b>05:24</b> and sets at <b>18:45</b>.
 ------------
 <p align="center">
 This <i>README</i> file is generated <b>every 3 hours</b>!</br>
-Last refresh: Thursday 23 July at 21:16 GMT+6
+Last refresh: Thursday 23 July at 21:17 GMT+6
 </p>
 <p align="center">
   <img src="https://github.com/SayemHasan74/SayemHasan74/actions/workflows/readme-build.yml/badge.svg" />
