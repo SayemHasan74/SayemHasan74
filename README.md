@@ -2,7 +2,6 @@
 
 <p>
 Welcome to my page! </br>
-I'm Sayem Hasan, a developer focused on <b>backend engineering</b>, <b>API design</b>, <b>full-stack development</b>, and <b>multilingual NLP research</b>.
 </p>
 
 <p align="center">
@@ -19,7 +18,7 @@ I'm Sayem Hasan, a developer focused on <b>backend engineering</b>, <b>API desig
 
 <h3>About me</h3>
 <p>
-Final-year Computer Science & Engineering student at <b>BRAC University</b>, specializing in <b>backend engineering</b> and <b>API design</b>, with additional experience in <b>full-stack development</b> and <b>multilingual NLP research</b>. Built and deployed production backend systems end-to-end: schema design, REST API architecture, and authentication, using <b>Node.js</b>, <b>PostgreSQL</b>, <b>MongoDB</b>, <b>Prisma</b>, and <b>TypeScript</b>, with <b>React</b> on the frontend where needed.
+I'm Sayem Hasan, a final-year Computer Science & Engineering student at <b>BRAC University</b>, focused on <b>backend engineering</b>, <b>API design</b>, <b>full-stack development</b>, and <b>multilingual NLP research</b>. I build and deploy production backend systems end-to-end: schema design, REST API architecture, and authentication, using <b>Node.js</b>, <b>PostgreSQL</b>, <b>MongoDB</b>, <b>Prisma</b>, and <b>TypeScript</b>, with <b>React</b> on the frontend where needed.
 </p>
 
 <h3>Things I code with</h3>
@@ -89,7 +88,7 @@ Today, the sun rises at <b>05:24</b> and sets at <b>18:45</b>.
 ------------
 <p align="center">
 This <i>README</i> file is generated <b>every 3 hours</b>!</br>
-Last refresh: Thursday 23 July at 21:23 GMT+6
+Last refresh: Thursday 23 July at 21:26 GMT+6
 </p>
 <p align="center">
   <img src="https://github.com/SayemHasan74/SayemHasan74/actions/workflows/readme-build.yml/badge.svg" />
