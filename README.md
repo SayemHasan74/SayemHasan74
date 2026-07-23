@@ -11,7 +11,7 @@ I'm Sayem Hasan, a developer focused on <b>backend engineering</b>, <b>API desig
 
 <p align="center">
   <img alt="Profile views" src="https://komarev.com/ghpvc/?username=SayemHasan74&label=Profile%20views&color=0e75b6&style=flat-square" />
-  <img alt="Website status" src="https://img.shields.io/website?url=https%3A%2F%2Fportfolio-rose-sigma-60.vercel.app%2F&style=flat-square&label=website" />
+  <a href="https://portfolio-rose-sigma-60.vercel.app/" target="_blank"><img alt="Website status" src="https://img.shields.io/website?url=https%3A%2F%2Fportfolio-rose-sigma-60.vercel.app%2F&style=flat-square&label=website" /></a>
   <img alt="GitHub followers" src="https://img.shields.io/github/followers/SayemHasan74?style=flat-square&label=followers&color=0e75b6" />
   <img alt="GitHub stars" src="https://img.shields.io/github/stars/SayemHasan74?affiliations=OWNER&style=flat-square&label=total%20stars&color=343b41" />
   <img alt="BRAC University CSE" src="https://img.shields.io/badge/BRAC%20University-CSE-7A1FA2?style=flat-square" />
@@ -89,7 +89,7 @@ Today, the sun rises at <b>05:24</b> and sets at <b>18:45</b>.
 ------------
 <p align="center">
 This <i>README</i> file is generated <b>every 3 hours</b>!</br>
-Last refresh: Thursday 23 July at 21:17 GMT+6
+Last refresh: Thursday 23 July at 21:23 GMT+6
 </p>
 <p align="center">
   <img src="https://github.com/SayemHasan74/SayemHasan74/actions/workflows/readme-build.yml/badge.svg" />

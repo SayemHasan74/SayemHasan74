@@ -8,6 +8,7 @@ const badge = (label, color, logo, logoColor = 'white') =>
   `<img alt="${label}" src="https://img.shields.io/badge/-${encodeURIComponent(label).replace(/%20/g, '_')}-${color}?style=flat-square&logo=${logo}&logoColor=${logoColor}" />`;
 
 const profileBadge = (src, alt) => `<img alt="${alt}" src="${src}" />`;
+const linkedProfileBadge = (href, src, alt) => `<a href="${href}" target="_blank"><img alt="${alt}" src="${src}" /></a>`;
 
 async function fetchJson(url) {
   const headers = {
@@ -99,7 +100,7 @@ async function main() {
   const data = {
     profile_badges: [
       profileBadge(`https://komarev.com/ghpvc/?username=${USERNAME}&label=Profile%20views&color=0e75b6&style=flat-square`, 'Profile views'),
-      profileBadge('https://img.shields.io/website?url=https%3A%2F%2Fportfolio-rose-sigma-60.vercel.app%2F&style=flat-square&label=website', 'Website status'),
+      linkedProfileBadge('https://portfolio-rose-sigma-60.vercel.app/', 'https://img.shields.io/website?url=https%3A%2F%2Fportfolio-rose-sigma-60.vercel.app%2F&style=flat-square&label=website', 'Website status'),
       profileBadge(`https://img.shields.io/github/followers/${USERNAME}?style=flat-square&label=followers&color=0e75b6`, 'GitHub followers'),
       profileBadge(`https://img.shields.io/github/stars/${USERNAME}?affiliations=OWNER&style=flat-square&label=total%20stars&color=343b41`, 'GitHub stars'),
       profileBadge('https://img.shields.io/badge/BRAC%20University-CSE-7A1FA2?style=flat-square', 'BRAC University CSE'),
