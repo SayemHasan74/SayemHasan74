@@ -66,8 +66,8 @@ I'm Sayem Hasan, a final-year Computer Science & Engineering student at <b>BRAC 
 
 <h3>Dhaka snapshot <img src="https://cdn-icons-png.flaticon.com/512/197/197563.png" width="13"/></h3>
 <p>
-Currently, the weather is: <b>29°C, <i>light drizzle</i></b></br>
-Today, the sun rises at <b>05:52</b> and sets at <b>17:39</b>.
+Currently, the weather is: <b>25°C, <i>clear sky</i></b></br>
+Today, the sun rises at <b>05:53</b> and sets at <b>17:38</b>.
 </p>
 
 <h3>Contribution snake</h3>
@@ -88,7 +88,7 @@ Today, the sun rises at <b>05:52</b> and sets at <b>17:39</b>.
 ------------
 <p align="center">
 This <i>README</i> file is generated <b>every 3 hours</b>!</br>
-Last refresh: Thursday 8 October at 15:34 GMT+6
+Last refresh: Friday 9 October at 00:02 GMT+6
 </p>
 <p align="center">
   <img src="https://github.com/SayemHasan74/SayemHasan74/actions/workflows/readme-build.yml/badge.svg" />
